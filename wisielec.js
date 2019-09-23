@@ -1,19 +1,18 @@
 const yes= new Audio("yes.wav");
 const no= new Audio("no.wav");
 
-let tab =["frajerem jesteś","dupa","machiny oblężnicze","malarstwo jaskiniowe",
+const passwords =["machiny oblężnicze","malarstwo jaskiniowe",
 'rachunek różniczkowy','rabuś kokosowy','rachunek prawdopodobieństwa','zaaklimatyzować się','złudzenie geometryczne','zżółknięty',' brzuchomówca'];
 let count=0;
-let w=Math.floor(Math.random()*(tab.length));
-let password=tab[w];
+let w=Math.floor(Math.random()*(passwords.length));
+let password=passwords[w];
 
 password=password.toUpperCase();
 
-let length=password.length;
 
 let password1= "";
 
-for(i=0;i<length;i++){
+for(i=0;i<password.length;i++){
 if(password.charAt(i)==" ")
 	password1=password1+" ";
 
@@ -53,7 +52,7 @@ return this.substr(0,place)+znak+this.substr(place+1);
 function check(nr){
 	let gool=false;
 	
-	for(i=0;i<length;i++){
+	for(i=0;i<password.length;i++){
 		if(password.charAt(i)==litery[nr])
 		{
 			password1=password1.change(i,litery[nr]);
