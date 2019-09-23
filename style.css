@@ -1,5 +1,4 @@
 body{
-	
 	background-color:#000000;
 	color:lightgray;
 	font-size:28px;
@@ -14,12 +13,12 @@ body{
 }
 
 #plansza{
-width:900px;
-margin-top:50px;
-margin-bottom:50px;
-text-align:center;
-min-height:60px;
-font-size:48px;
+	width:900px;
+	margin-top:50px;
+	margin-bottom:50px;
+	text-align:center;
+	min-height:60px;
+	font-size:48px;
 
 }
 #alpha{
@@ -31,7 +30,6 @@ font-size:48px;
 
 }
 #wisielec{
-	
 	float: left;
 	width: 450px;
 	text-align: center;
@@ -49,20 +47,20 @@ font-size:48px;
 	float:left;
 	cursor: pointer;
 }
-.litera:hover
-{
-background-color: #222222;
-color:white;
-border:3px solid white;
+
+.litera:hover{
+	background-color: #222222;
+	color:white;
+	border:3px solid white;
 }
+
 .reset{
-color:green;
-cursor:pointer;
-font-size:48px;
-border: 3px solid blue;
-
+	color:green;
+	cursor:pointer;
+	font-size:48px;
+	border: 3px solid blue;
 }
-.reset:hover{
-color:white;
 
+.reset:hover{
+	color:white;
 }
