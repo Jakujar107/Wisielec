@@ -88,7 +88,7 @@ function check(nr){
 	'<br/><br/><span class="reset" onclick="location.reload()">Jeszcze raz?</span>';
 	}
 	if(count>=9){
-		document.getElementById("alpha").innerHTML="PRZEGRAŁEŚ!! Prawidłowe hasło: " +password+
+		document.getElementById("alpha").innerHTML='<img src="'+"img/giphy.gif"+'"alt=""/>'+
 	'<br/><br/><span class="reset" onclick="location.reload()">Jeszcze raz?</span>';
 	}
 }
